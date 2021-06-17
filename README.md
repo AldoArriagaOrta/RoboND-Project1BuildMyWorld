@@ -3,6 +3,10 @@ The "Build my world" project's purpose is to put into pratice the lessons learne
 
 Note: Both the workspace and the virtual machine were too slow to be able to work on any of them. I ended up installing ROS 2 Galactic (Ubuntu Focal) and Gazebo 9 under Ubuntu 20.04. I am aware there might be some compatibility issues and I will try to address them in due time.
 
+[//]: # (Image References)
+
+[image1]: ./images/GazeboWorld.png "Screenshot"
+
 ### Directory Structure
 ```
     .myrobot                           # myrobot lab main folder 
@@ -27,3 +31,7 @@ Prior to launching gazebo and loading "myworld".
 ```
 export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/aldo/UdacityRoboticsND/Project1BuildingMyWorld/build
 ```
+
+#### Results Screenshot
+
+![alt text][image1]
